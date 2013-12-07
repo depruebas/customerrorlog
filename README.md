@@ -20,11 +20,11 @@ Example test class
 
 	<?php
 
-  	$rutaLogs = "/home/depruebas/wwwroot/web/files/logs/";
+  		$rutaLogs = "/home/depruebas/wwwroot/web/files/logs/";
+	
+  		require_once "CustomErrorLog.php";
 
-  	require_once "CustomErrorLog.php";
 
-
-  	print_r ($r);
+  		print_r ($r);
   
 	?>

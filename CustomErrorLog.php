@@ -40,35 +40,35 @@ class CustomErrorLog
   {
     switch($type)
     {
-      case E_ERROR: // 1 //
+      case E_ERROR: // code error 1
           return 'E_ERROR';
-      case E_WARNING: // 2 //
+      case E_WARNING: // code error 2 
           return 'E_WARNING';
-      case E_PARSE: // 4 //
+      case E_PARSE: // code error 4 
           return 'E_PARSE';
-      case E_NOTICE: // 8 //
+      case E_NOTICE: // code error 8 
           return 'E_NOTICE';
-      case E_CORE_ERROR: // 16 //
+      case E_CORE_ERROR: // code error 16 
           return 'E_CORE_ERROR';
-      case E_CORE_WARNING: // 32 //
+      case E_CORE_WARNING: // code error 32 
           return 'E_CORE_WARNING';
-      case E_CORE_ERROR: // 64 //
+      case E_CORE_ERROR: // code error 64 
           return 'E_COMPILE_ERROR';
-      case E_CORE_WARNING: // 128 //
+      case E_CORE_WARNING: // code error 128 
           return 'E_COMPILE_WARNING';
-      case E_USER_ERROR: // 256 //
+      case E_USER_ERROR: // code error 256 
           return 'E_USER_ERROR';
-      case E_USER_WARNING: // 512 //
+      case E_USER_WARNING: // code error 512
           return 'E_USER_WARNING';
-      case E_USER_NOTICE: // 1024 //
+      case E_USER_NOTICE: // code error 1024 
           return 'E_USER_NOTICE';
-      case E_STRICT: // 2048 //
+      case E_STRICT: // code error 2048 
           return 'E_STRICT';
-      case E_RECOVERABLE_ERROR: // 4096 //
+      case E_RECOVERABLE_ERROR: // code error 4096 
           return 'E_RECOVERABLE_ERROR';
-      case E_DEPRECATED: // 8192 //
+      case E_DEPRECATED: // code error 8192 
           return 'E_DEPRECATED';
-      case E_USER_DEPRECATED: // 16384 //
+      case E_USER_DEPRECATED: // code error 16384 
           return 'E_USER_DEPRECATED';
     }
     return "";

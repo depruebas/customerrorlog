@@ -15,3 +15,16 @@ How to use:
 
 Automatically record data on path @pathLogs.  
 $pathLogs is a variable defined at some point in your application before the call to the class
+
+Example test class
+
+<?php
+
+  $rutaLogs = "/home/depruebas/wwwroot/web/files/logs/";
+
+  require_once "CustomErrorLog.php";
+
+
+  print_r ($r);
+  
+?>

@@ -15,8 +15,8 @@
 *
 *
 * @autor         Alex A. Solano ( asolano@depruebas.com )
-* @link          
-* @package       CErrorLog.php
+* @link          http://www.netveloper.com
+* @package       CustomErrorLog.php
 * @since         v.0.1
 */
 

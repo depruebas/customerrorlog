@@ -7,10 +7,10 @@ Spanish version
 http://www.netveloper.com/2013/12/clase-para-guardar-errores-en-php/
 
 To use the class has to be included in our application and define a path for the error file as follows:
-
-   $rutaLogs = “/home/depruebas/wwwroot/web/files/logs/”;
+<pre>
+   $rutaLogs = “/home/depruebas/wwwroot/web/files/logs/”;<br>
    require_once “CustomErrorLog.php”;
-
+</pre>
 Change permissions to rutalogs 777
 
 How to use:

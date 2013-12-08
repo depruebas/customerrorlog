@@ -54,7 +54,7 @@ $errline, line where the error occurred.
 We use also the function
 <pre>
 $debug = debug_backtrace(); 
-</<pre>pre>
+</<pre>
 to get the file and line where the error is.
 
 <b>register_shutdown_function</b>, runs when you end a set script for either die, or exit an error.

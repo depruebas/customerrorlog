@@ -4,7 +4,7 @@ customerrorlog
 Class to handle errors, warnings , notices, all errors displayed in the PHP code.
 
 Spanish version 
-http://www.netveloper.com/2013/12/clase-para-guardar-errores-en-php/
+http://www.netveloper.com/clase-para-guardar-errores-en-php/
 
 To use the class has to be included in our application and define a path for the error file as follows:
 <pre>
